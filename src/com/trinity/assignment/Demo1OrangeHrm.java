@@ -19,7 +19,7 @@ public class Demo1OrangeHrm {
 		driver.get("https://opensource-demo.orangehrmlive.com/"); 
 		
 		driver.findElement(By.id("membership_subscriptionCommenceDate")).clear();
-		driver.findElement(By.id("membership_subscriptionCommenceDate")).sendKeys("2022-04-22");
+		driver.findElement(By.id("membership_subscriptionCommenceDate")).sendKeys("2022-04-23");
 	}
 
 }
